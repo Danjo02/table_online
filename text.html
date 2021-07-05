@@ -1,0 +1,37 @@
+<html>
+<link rel="stylesheet" type="text/css" href="text.css">
+<script type="text/javascript">
+function changeImg(image){
+  var imghol = document.getElementById("imageHolder");
+  imghol.src = image;
+}
+</script>
+
+<div class="ADS2">
+    <h2>Vehicle Part</h2>
+    <p>Please select a part you wish to find;</p>
+    <div class="vertical_menu">
+        <table border="5px">
+	<tr>
+            <th><a id="FS" href="javascript:" onclick="changeImg('Tokito.jpg');">Front Side</a><th>
+	</tr>
+
+	<tr>
+            <th><a id="RS" href="javascript:" onclick="changeImg('Tengen.jpeg')">Rear Side</a></th>
+	</tr>
+	
+	<tr>
+            <th><a id="S" href="javascript:" onclick="changeImg('Rengoku.jpg')">Side</a></th>
+	</tr>
+
+	<tr>
+            <th><a id="US" href="javascript:" onclick="changeImg('Mitsuri.jpg')">Under Side</a></th>
+	</tr>
+
+	<tr>
+            <th><a id="I" href="javascript:" onclick="changeImg('Sanemi.jpg')">Interior</a></th>
+	</tr>
+        </table>
+    </div>
+    <div class="imageholder"><img id="imageHolder" /></div>
+</div>
