@@ -1,0 +1,35 @@
+body{
+	background: linear-gradient(to top left, violet, indigo, blue, green, yellow, orange, red);
+}
+table{
+   background: linear-gradient(to left, blue, violet, red);
+  margin-left: auto;
+  margin-right: auto;
+  border: ridge;
+  border-width: 15px;
+  border-color: green;
+}
+a{
+	font-family: Comic sans ms;
+	font-weight: bold;
+	font-size: 14pt;
+	text-decoration: none;
+	color: green;
+}
+
+a:hover{
+	font-family: Comic sans ms;
+	font-size: 17pt;
+	background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	color: brown;
+}
+
+th.names{
+	background-color: Fuchsia;
+	border: inset;
+	font: Adobe Caslon Pro Bold;
+}
+
+td.link{
+	border:outset;
+}
